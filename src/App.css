@@ -1,0 +1,126 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background: #000000;
+  color: #ffffff;
+}
+.m-1 {
+  margin-top: 2vh;
+  font-size: 3vh;
+}
+.div-1 {
+  font-size: 4vh;
+  font-weight: 800;
+  margin-left: 5vw;
+}
+.div-2 {
+  margin-left: 12vw;
+}
+input {
+  background: #000000;
+  color: #ffffff;
+  border: 0.5px solid #a5a5a5;
+  height: 6vh;
+  width: 20vw;
+  border-radius: 15px;
+  padding-left: 8vh;
+}
+.div-3 {
+  margin-left: 40vw;
+}
+.div-4 {
+  margin-left: 5vw;
+}
+.div-5 {
+  margin-left: 5vw;
+}
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #1a1918;
+  display: flex;
+  color: #ffffff;
+}
+.sidebar {
+  color: #adacac;
+  background: #0d0c0c;
+  margin-top: 10vh;
+  width: 20vw;
+}
+.home {
+  margin-top: 10vh;
+  height: 90vh;
+  overflow-y: scroll;
+  width: 80vw;
+}
+.home::-webkit-scrollbar {
+  display: none;
+}
+.side-buttons {
+  font-size: 13.5px;
+  width: 90%;
+  margin: 5vh 5%;
+  padding-left: 20%;
+}
+.bottom {
+  margin-top: 36vh;
+}
+.feeds-1 {
+  display: flex;
+  width: 80vw;
+  overflow-x: scroll;
+}
+.feeds-1::-webkit-scrollbar {
+  display: none;
+}
+.cards {
+  width: 35vw;
+  height: 50vh;
+  margin: 5vh 0 0 3vw;
+  display: flex;
+  flex-direction: column;
+}
+.imgs-1 {
+  width: 35vw;
+  height: 40vh;
+}
+.imgs-name {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vh;
+}
+.imgs-2 {
+  width: 60%;
+  margin: 1vh 0.5vw;
+  height: 6vh;
+  border-radius: 100%;
+}
+.cards-s {
+  width: 30vw;
+  height: 40vh;
+  margin: 5vh 0 0 3vw;
+  display: flex;
+  flex-direction: column;
+}
+.imgs-1-s {
+  width: 30vw;
+  height: 30vh;
+}
+.imgs-name-s {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vh;
+}
+.imgs-2-s {
+  width: 60%;
+  margin: 1vh 0.5vw;
+  height: 6vh;
+  border-radius: 100%;
+}
